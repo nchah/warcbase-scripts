@@ -26,7 +26,7 @@ def main(query):
     response = json.loads(urllib.urlopen(url).read())
 
     # Parsing the response  TODO: log all responsese
-    print('Displaying results' + ' with limit: ' + str(params['limit']) + '...\n')
+    print('Displaying results...' + ' (limit: ' + str(params['limit']) + ')\n')
     for element in response['itemListElement']:
         try:
             types = str(", ".join([n for n in element['result']['@type']]))
