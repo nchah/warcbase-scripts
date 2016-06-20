@@ -1,5 +1,14 @@
 # warcbase-scripts
 
+This repository was created to manage part of the workflow for a team project by "Team Turtle" during the Archives Unleashed Datathon 2.0 held between June 13-15, 2016 at the Library of Congress in Washington DC.
+
+## Workflow
+
+1.
+2.
+3.
+4.
+
 ## Running in warcbase
 
 The open-source warcbase repo is [here](https://github.com/lintool/warcbase).
