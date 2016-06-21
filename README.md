@@ -1,10 +1,12 @@
 # warcbase-scripts
 
-This repository was created to manage part of the workflow for a team project by "Team Turtle" during the Archives Unleashed Datathon 2.0 held between June 13-15, 2016 at the Library of Congress in Washington DC.
+This repository was created to manage part of the workflow for a team project by "Team Turtle" during the Archives Unleashed Datathon 2.0 (http://archivesunleashed.com/) held between June 13-15, 2016 at the Library of Congress in Washington DC.
+
+This work was presented at the [Saving the Web: The Ethics and Challenges of Preserving What’s on the Internet](https://www.loc.gov/loc/kluge/news/save-web-2016.html) Symposium on June 16, 2016. 
 
 ## Workflow
 
-Steps 1 and 4 are covered in this repository.
+Steps 1 and 4 are covered in this repository. The other steps were covered by colleagues in the group.
 
 1. Parse and clean the text from WARCs of party/candidate websites using warcbase
 2. Extracted Named Entities (candidate names, state names)
@@ -60,7 +62,7 @@ $ cat ./*/part-00000 >merged.tsv
 
 ## 4. Semantic Web extension
 
-The [kg-api.py](https://github.com/nchah/warcbase-scripts/blob/master/kg-api.py) script is a Python CLI tool to query the Google Knowledge Graph API. This script is meant to serve as a Semantic Web extension to the topic modelling that was done with the Named Entity Recognition (NER) done in steps 2 and 3 of the workflow.
+The [kg-api.py](https://github.com/nchah/warcbase-scripts/blob/master/kg-api.py) script is a Python CLI tool to query the Google Knowledge Graph API. This script is meant to serve as a Semantic Web extension to the topic modelling and Named Entity Recognition (NER) done in steps 2 and 3 of the project workflow.
 
 
 ```
