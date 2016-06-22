@@ -48,7 +48,7 @@ Type :help for more information.
 
 ```
 
-Once the Scala REPL is loaded, starting running the scripts in [WarcsToTsv.scala](https://github.com/nchah/warcbase-scripts/blob/master/WarcsToTsv.scala).
+Once the Scala REPL is loaded, starting running the scripts in [WarcsToTsv.scala](https://github.com/nchah/warcbase-scripts/blob/master/scripts/WarcsToTsv.scala).
 
 The script should make it possible to iterate over hundreds of WARC/ARC files and output the relevant textual data into TSV files.
 
@@ -58,7 +58,7 @@ scala> :paste
 
 ```
 
-Then, merge all of the individual TSV files into a single master TSV with a single Bash command in [merge-tsv.sh](https://github.com/nchah/warcbase-scripts/blob/master/merge-tsv.sh).
+Then, merge all of the individual TSV files into a single master TSV with a single Bash command in [merge-tsv.sh](https://github.com/nchah/warcbase-scripts/blob/master/sripts/merge-tsv.sh).
 
 ```
 $ # Merge each TSV file named "part-00000" located in distinct folders
@@ -69,7 +69,7 @@ $ cat ./*/part-00000 >merged.tsv
 
 ## Step 4. Semantic Web extension
 
-The [kg-api.py](https://github.com/nchah/warcbase-scripts/blob/master/kg-api.py) script is a Python CLI tool to query the Google Knowledge Graph API. This script is meant to serve as a Semantic Web extension to the topic modelling and Named Entity Recognition (NER) done in steps 2 and 3 of the project workflow.
+The [kg-api.py](https://github.com/nchah/warcbase-scripts/blob/master/scripts/kg-api.py) script is a Python CLI tool to query the Google Knowledge Graph API. This script is meant to serve as a Semantic Web extension to the topic modelling and Named Entity Recognition (NER) done in steps 2 and 3 of the project workflow.
 
 
 ```
