@@ -66,6 +66,14 @@ $ cat ./*/part-00000 >merged.tsv
 
 ```
 
+## Step 2, 3. Named Entities and Topic Modelling
+
+Working with the data outputted from warcbase, we were able to construct the following visualization. The map is presented in the web browser and supports mouse hovers to reveal further labels.
+
+The size of the bubble represents how often the state was mentioned by the candidate. Hovering over each bubble will reveal a labelthat represents the topic that was most frequently brought up by the candidate.
+
+![map visual](https://github.com/nchah/warcbase-scripts/blob/master/images/map-visual.png?raw=true)
+
 
 ## Step 4. Semantic Web extension
 
@@ -118,7 +126,7 @@ Library of Congress Recordings
 
 ```
 
-
+![cli visual](https://github.com/nchah/warcbase-scripts/blob/master/images/cli-visual.png?raw=true)
 
 
 
