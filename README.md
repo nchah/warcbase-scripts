@@ -4,6 +4,13 @@ This repository was created to manage part of the workflow for a team project by
 
 This work was presented at the [Saving the Web: The Ethics and Challenges of Preserving What’s on the Internet](https://www.loc.gov/loc/kluge/news/save-web-2016.html) Symposium on June 16, 2016. 
 
+## Project
+
+The Library of Congress provided 145 ARC files that contained data from crawls during the days leading up to the 2004 US Presidential election. We used this data to explore the following research question.
+
+Research Question: Which places and topics did the two presidential candidates mention most in the days leading up to the 2004 election? 
+
+
 ## Workflow
 
 Steps 1 and 4 are covered in this repository. The other steps were covered by colleagues in the group.
@@ -14,7 +21,7 @@ Steps 1 and 4 are covered in this repository. The other steps were covered by co
 4. Semantic Web extension - Google Knowledge Graph API and Wikidata
 
 
-## 1. warcbase
+## Step 1. warcbase
 
 The open-source warcbase repo is [here](https://github.com/lintool/warcbase).
 
@@ -60,7 +67,7 @@ $ cat ./*/part-00000 >merged.tsv
 ```
 
 
-## 4. Semantic Web extension
+## Step 4. Semantic Web extension
 
 The [kg-api.py](https://github.com/nchah/warcbase-scripts/blob/master/kg-api.py) script is a Python CLI tool to query the Google Knowledge Graph API. This script is meant to serve as a Semantic Web extension to the topic modelling and Named Entity Recognition (NER) done in steps 2 and 3 of the project workflow.
 
